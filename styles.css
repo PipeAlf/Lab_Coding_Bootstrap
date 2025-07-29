@@ -1,0 +1,71 @@
+/* Estilos básicos */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+/* Encabezado */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#titulo {
+  color: #2c3e50;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+/* Lista de tareas */
+#lista-tareas {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+#lista-tareas li {
+  background: white;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  border-left: 4px solid #3498db;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+/* Formulario */
+#fomulario-tarea {
+  display: flex;
+  margin-bottom: 20px;
+}
+#nueva-tarea {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+#nueva-tarea:focus {
+  outline: none;
+  border-color: #3498db;
+}
+/* Botones */
+.miBoton {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.miBoton:hover {
+  background: #2980b9;
+}
+/* Imagen */
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
